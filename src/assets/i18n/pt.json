@@ -1,0 +1,11 @@
+{
+  "header": {
+    "home": "Início",
+    "products": "Produtos",
+    "language": "Idioma"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "Inglês"
+  }
+}

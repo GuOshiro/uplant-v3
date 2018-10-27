@@ -1,0 +1,39 @@
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand"><strong>Navbar</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" translate>{{'header.home' | translate}} <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">{{'header.products' | translate}}</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>{{'header.language' | translate}}<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect (click)="switchLanguage('pt')">Português</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect (click)="switchLanguage('en')">Inglês</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header>

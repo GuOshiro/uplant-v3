@@ -20,7 +20,7 @@ const modules = [
     CommonModule,
     ...modules
   ],
-  exports: [,
+  exports: [
     ...modules
   ],
   declarations: []

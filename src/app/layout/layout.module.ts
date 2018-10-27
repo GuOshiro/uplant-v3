@@ -4,7 +4,6 @@ import { SharedModule } from '../shared/shared.module';
 import { BaseComponent } from './base/base.component';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { ProductsComponent } from './products/products.component';
-
 @NgModule({
   imports: [
     CommonModule,
